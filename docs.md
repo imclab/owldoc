@@ -14,7 +14,7 @@ Owldoc is freely distributable under the terms of the MIT license.
 
 ## Basic Usage
 
-    $ owldoc --template=docs.ejs.html docs.md > docs.html
+    $ owldoc docs.md > docs.html
 
 And hey presto, your documentation is now generated!
 

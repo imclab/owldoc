@@ -4,13 +4,15 @@ var md = require("node-markdown").Markdown,
     cheerio = require("cheerio"),
     ejs = require("ejs"),
     fs = require("fs"),
+    path = require("path"),
     argv = require("optimist")
         .usage("Generate documentation with a Markdown file\n" +
                "Usage: $0 FILENAME")
-        .demand(1, 1)
+        .demand(1)
         .demand('t')
         .alias('t', 'template')
         .describe('t', 'EJS template to use')
+        .default('t', path.dirname(__filename) + "/docs.ejs.html")
         .argv;
 
 var template = ejs.compile(fs.readFileSync(argv.t).toString());

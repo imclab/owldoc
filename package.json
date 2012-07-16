@@ -1,9 +1,10 @@
 {
     "name": "owldoc",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Tony Young <tony@rfw.name>",
     "description": "A JavaScript prose documentation generator.",
     "main": "./owldoc",
+    "files": ["docs.ejs.html", "owldoc.js"],
     "repository": {
         "type": "git",
         "url": "https://github.com/rfw/owl.git"
