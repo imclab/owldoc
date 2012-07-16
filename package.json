@@ -1,0 +1,21 @@
+{
+    "name": "owldoc",
+    "version": "0.0.1",
+    "author": "Tony Young <tony@rfw.name>",
+    "description": "A JavaScript prose documentation generator.",
+    "main": "./owldoc",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rfw/owl.git"
+    },
+    "dependencies": {
+        "node-markdown": "0.1.x",
+        "cheerio": "0.8.x",
+        "optimist": "0.3.x",
+        "ejs": "0.7.x"
+    },
+    "bin": {
+        "owldoc" : "./owldoc.js"
+    },
+    "license": "MIT"
+}
