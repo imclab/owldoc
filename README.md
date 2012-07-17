@@ -46,3 +46,6 @@ section, then the anchor to that section will be named `#Rendering-2`.
 If you want to override the anchor text, simply surround the section of the
 title you want to make the anchor with `<span class="heading"></span>`.
 
+## Examples
+
+ * [`sloth.js`'s documentation](http://rfw.github.com/sloth.js)
