@@ -1,6 +1,6 @@
 {
     "name": "owldoc",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "Tony Young <tony@rfw.name>",
     "description": "A JavaScript prose documentation generator.",
     "main": "./owldoc",
